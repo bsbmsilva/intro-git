@@ -1,1 +1,1 @@
-[  ] Efetuar merge o código
+[  ] Efetuar merge no código
