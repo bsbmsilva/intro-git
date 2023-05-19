@@ -21,7 +21,22 @@ Arquivos modificados serão marcados como M: Modified
 --git add 'nome_arquivo'
 
 -Para verificar o que foi modificado em um arquivo
---git diff
+--git diff 'nome_arquivo'
 
 -Para realizar um commit dos arquivos em staged
 --git commit -m "descrição sucinta"
+
+## Controle
+
+-Para verificar todos os commits que já foram feitos
+--git log
+
+-Para retornar o arquivo à forma como estava antes das modificações
+--git restore 'nome_arquivo'
+
+## Conexão com repositório remoto
+
+-git remote
+
+-Para enviar para o diretório remoto
+--git push origin master
