@@ -7,7 +7,7 @@ Para baixar um repositório disponível online:
 -No domínio local desejado abrir o VSCode ou o terminal e utilizar o comando:
 --git https... #irá baixar a pasta
 
-Para subir um repositório criado localmente:
+Para criar um repositório localmente:
 -No domínio local desejado abrir o VSCode ou o terminal e utilizar o comando
 --git init #irá transformar essa pasta em um repositório git
 
@@ -39,4 +39,24 @@ Arquivos modificados serão marcados como M: Modified
 -git remote
 
 -Para enviar para o diretório remoto
---git push origin master
+--git push origin master/main
+
+-Para atualizar o arquivo com as mudanças efetuadas remotamente
+-- git pull #Cuidado com esse comando, pois ele fará um merge com seu arquivo local
+
+## Trabalhando com Branschs
+
+-Para criar uma nova branch
+--git branch 'nome_nova_branch'
+
+-Para verificar todas as branchs que existem e em qual estamos
+--git branch
+
+-Para trocar para outra branch
+--git checkout 'nome da branch que quer ir' #No caso do VScode ele informa a branch atual no canto inferior esquerdo #Os avanços feitos nessa branch não aparecerão na branch master
+
+## Fazer merge
+
+-Para unir duas branchs
+--git merge 'branch com a qual quer juntar'
+
